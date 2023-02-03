@@ -1,0 +1,698 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Rowdies&display=swap");
+body {
+  font-family: Raleway;
+  margin: 0;
+  color: aliceblue;
+  background-color: rgb(53, 53, 53);
+  min-width: 1125px;
+}
+#Sidebar {
+  position: fixed;
+  left: -300px;
+  z-index: 8;
+  background-color: rgba(255, 255, 255, 0.303);
+  height: 80%;
+  width: 300px;
+  border-bottom-right-radius: 45px;
+  transition: 400ms;
+}
+#Sidebar ul li {
+  margin: 30px;
+  font-family: Rowdies;
+  font-size: 18px;
+
+  list-style: none;
+}
+#Sidebar ul li:first-child {
+  padding-top: 15px;
+  padding-left: 50px;
+  font-size: 31px;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 3px rgb(238, 7, 7);
+}
+#Sidebar ul li a {
+  border-radius: 40px;
+  padding-left: 10px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+#Sidebar ul li a:hover {
+  background-color: black;
+  font-size: 28px;
+}
+#Sidebar .battonMenu {
+  transition: 1s;
+  opacity: 70%;
+  position: absolute;
+  background: #e0e5ea;
+  left: 320px;
+  border-radius: 12px;
+  padding: 18px;
+  top: 15px;
+  cursor: pointer;
+}
+#Sidebar .battonMenu span {
+  display: block;
+  width: 25px;
+  height: 4px;
+  background-color: black;
+  margin: 5px 0;
+}
+#Sidebar .battonMenu:hover {
+  transform: rotate(0.5turn);
+  padding: 22px;
+}
+
+#Sidebar.active {
+  left: 0px;
+}
+.container {
+  max-width: 1457px;
+  max-height: 717px;
+}
+
+.LOogAudi {
+  position: absolute;
+  left: 200px;
+  top: 600px;
+  z-index: 8;
+}
+
+
+a {
+  font-size: 19;
+  color: aliceblue;
+  text-decoration: none;
+}
+.socialnetwork1 {
+  transition: 1s;
+}
+.socialnetwork1:hover {
+  transform: scale(1.2);
+}
+a:hover {
+  font-size: 22px;
+  color: rgb(218, 16, 16);
+}
+.Discriptor1 {
+  animation: logo 3s ease infinite;
+  letter-spacing: 5px;
+  color: red;
+  margin: 0px;
+}
+.Discriptor1 span {
+  font-family: Rowdies;
+  letter-spacing: 5px;
+  color: red;
+  margin: 0px;
+}
+@keyframes logo {
+  from {
+    color: rgb(240, 255, 251);
+  }
+  to {
+    color: rgb(212, 0, 0);
+  }
+}
+.AUDI {
+  color: red;
+}
+
+.Car1 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+.Discriptor {
+  opacity: 86%;
+  text-shadow: 1px 1px 4px rgb(218, 16, 16);
+  /* display: flex; */
+  font-family: Raleway;
+  position: absolute;
+  font-size: 25px;
+  z-index: 4;
+  left: 500px;
+  padding-top: 20px;
+  background-color: rgba(0, 125, 215, 0);
+  height: 60px;
+}
+.Artem {
+  text-align: center;
+}
+.Attic {
+  width: 1457px;
+  height: 717px;
+  background-position: center;
+  background-image: url(image/Fon3.jpg);
+  text-align: center;
+}
+.Battom {
+  transition: 1.5s;
+  padding: 25px;
+}
+.Battom:hover {
+  transform: scale(1.1);
+}
+.Battom1 {
+  transition: 1.5s;
+  padding: 25px;
+}
+.Battom1:hover {
+  transform: scale(1.1);
+}
+.Battom2 {
+  transition: 1.5s;
+  padding: 25px;
+}
+.Battom2:hover {
+  transform: scale(1.1);
+}
+.wall {
+  position: relative;
+  top: -67px;
+  z-index: 3;
+}
+.YourCar {
+  padding-bottom: 300px;
+  padding-top: 100px;
+  background-image: url(image/Redpng.png);
+}
+.Text {
+  font-family: Rowdies;
+  text-shadow: 3px 3px 3px rgb(238, 7, 7);
+  opacity: 70%;
+  font-size: 60px;
+  z-index: 1;
+  position: absolute;
+  bottom: 940px;
+  left: 235px;
+}
+.Motor {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  padding-left: 470px;
+  height: 500px;
+}
+
+#Metka .Green {
+  font-family: Rowdies;
+  font-size: 29px;
+  position: absolute;
+  left: 310px;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  padding: 20px;
+  border-radius: 40px;
+}
+#Metka .Red {
+  font-family: Rowdies;
+  font-size: 29px;
+  position: absolute;
+  left: 510px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(209, 15, 15);
+  padding: 20px;
+  border-radius: 40px;
+}
+#Metka .Blue {
+  white-space: nowrap;
+  font-family: Rowdies;
+  font-size: 29px;
+  position: absolute;
+  left: 710px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(42, 16, 188);
+  padding: 20px;
+  border-radius: 40px;
+}
+#Metka .wHITE {
+  white-space: nowrap;
+  font-family: Rowdies;
+  font-size: 29px;
+  position: absolute;
+  left: 910px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(215, 209, 27);
+  padding: 20px;
+  border-radius: 40px;
+}
+#Metka .wHITE span {
+  white-space: nowrap;
+  color: rgba(189, 178, 23, 0.574);
+}
+#Metka .Green span {
+  white-space: nowrap;
+  color: rgba(62, 189, 23, 0.574);
+}
+#Metka .Red span {
+  white-space: nowrap;
+  color: rgba(184, 34, 34, 0.574);
+}
+#Metka .Blue span {
+  white-space: nowrap;
+  color: rgba(62, 23, 189, 0.574);
+}
+
+.Car {
+  z-index: 0;
+}
+.Text4 span {
+  font-family: Rowdies;
+  color: red;
+  font-size: 30px;
+}
+.Text3 {
+  font-family: Raleway;
+  font-size: 29px;
+  position: relative;
+}
+.socialnetwork {
+  position: relative;
+  bottom: -610px;
+  right: 600px;
+  z-index: 4;
+}
+
+.Text4 {
+  font-family: Raleway;
+  margin: 30px;
+  font-size: 24px;
+}
+.socialnetwork1 {
+  margin: 19px;
+}
+.strelca{
+  position: absolute;
+}
+
+#Obolohca{
+  display: flex;
+  padding-top: 300px;
+  padding-left: 80px;
+  padding-bottom: 200px;
+}
+#Obolohca.activebatton{
+  opacity: 100%;
+}
+.Audi2 {
+  position: relative;
+  bottom: -15px;
+  padding-left: 115px;
+  margin: 23px;
+  display: flex;
+}
+#BATTOMMAX {
+  height: 200px;
+}
+#BATTOMMAX .BATTON {
+  animation: batton 3s ease infinite;
+  border-radius: 10px;
+  font-family: Rowdies;
+  /* background: linear-gradient(to right ,red , rgb(124, 13, 13) , rgb(78, 7, 7)); */
+  font-size: 30px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  width: 210px;
+  height: 30px;
+  background-color: rgb(129, 30, 23);
+  padding: 26px;
+  left: 600px;
+  transition: 0.8s;
+}
+@keyframes batton {
+  0% {
+    background-color: white;
+    color: rgb(16, 10, 10);
+  }
+  50% {
+   background-color: red;
+    color: rgb(255, 255, 255);
+  }
+  70% {
+    background-color: darkred;
+  }
+  100% {
+    color: black;
+    background-color: white;
+  }
+}
+#bac{
+  transition: 1s;
+  opacity: 100%;
+  height: 1350px;
+}
+#bac.activebatton{
+  opacity: 0%;
+}
+#BATTOMMAX .BATTON:hover {
+transform: scale(1.2);
+cursor: pointer;
+}
+.Audi3 {
+  transition: 2s;
+  margin: 40px;
+}
+.Audi3:hover {
+  transform: scale(1.3);
+}
+.Audi4 {
+  transition: 2s;
+  margin: 40px;
+}
+.Audi4:hover {
+  transform: scale(1.3);
+}
+.Audi5 {
+  transition: 2s;
+  margin: 40px;
+}
+.Audi5:hover {
+  transform: scale(1.3);
+}
+.Years {
+  font-family: Rowdies;
+  padding-left: 330px;
+  margin: 10px;
+  display: flex;
+}
+/* .Logo {
+  font-family: Rowdies;
+} */
+#Years1 {
+  display: flex;
+  font-size: 17px;
+}
+#Years1 span {
+  color: red;
+  letter-spacing: 15px;
+  font-size: 80px;
+}
+#Years2 {
+  font-size: 17px;
+  padding-left: 200px;
+  display: flex;
+}
+#Years2 span {
+  color: red;
+  letter-spacing: 15px;
+  font-size: 80px;
+}
+
+.Text2 {
+  background-color: black;
+  position: absolute;
+  top: 700px;
+  z-index: 3;
+}
+.wall2 {
+  position: relative;
+  bottom: -65px;
+}
+.basement {
+  width: 1457px;
+  height: 300px;
+  background-image: url(image/blue.jpg);
+}
+.basement_Text {
+  font-size: 24px;
+  letter-spacing: 10px;
+  position: relative;
+  bottom: -130px;
+  padding-left: 100px;
+}
+.basement_Text2 {
+  font-family: Rowdies;
+  font-size: 14px;
+  position: relative;
+  bottom: -150px;
+  padding-left: 100px;
+  color: red;
+}
+.basement_Text3 {
+  font-family: Rowdies;
+  font-size: 16px;
+  position: relative;
+  bottom: -23px;
+  padding-left: 500px;
+}
+.basement_Text4 {
+  font-family: Rowdies;
+  font-size: 14px;
+  position: relative;
+  bottom: -40px;
+  padding-left: 500px;
+}
+.basement_Text5 {
+  font-family: Rowdies;
+  font-size: 16px;
+  position: relative;
+  bottom: 98px;
+  padding-left: 789px;
+  letter-spacing: 5px;
+}
+.basement_Text6 {
+  letter-spacing: 2px;
+  font-family: Rowdies;
+  font-size: 15px;
+  position: relative;
+  bottom: 196px;
+  padding-left: 1110px;
+}
+.basement_Text7 {
+  font-family: Rowdies;
+  font-size: 15px;
+  position: relative;
+  bottom: 196px;
+  padding-left: 1110px;
+}
+
+.basement_Text8 {
+  font-family: Rowdies;
+  font-size: 15px;
+  position: relative;
+  bottom: 220px;
+  padding-left: 1110px;
+}
+
+@media (max-width: 1170px) {
+  #Sidebar {
+    height: 820px;
+    width: 560px;
+    left: -561px;
+  }
+  #Sidebar ul li:first-child {
+    font-size: 70px;
+  }
+  #Sidebar ul li a:hover {
+    font-size: 68px;
+  }
+  #Sidebar ul li a {
+    font-size: 65px;
+  }
+  #Sidebar .battonMenu {
+    padding: 30px;
+    left: 580px;
+  }
+  #Sidebar .battonMenu:hover {
+    padding: 33px;
+  }
+  .Years {
+    padding-left: 200px;
+  }
+  .Text {
+    font-size: 69px;
+    opacity: 60%;
+    position: absolute;
+    bottom: 2110px;
+  }
+  #BATTOMMAX .BATTON {
+    border-radius: 35px;
+    font-family: Rowdies;
+    
+    font-size: 60px;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    width: 390px;
+    height: 80px;
+    background-color: rgb(129, 30, 23);
+    padding: 100px;
+    left: 430px;
+    transition: 0.8s;
+  }
+  #bac{
+    height: 2550px;
+  }
+  #Metka {
+    margin: 50px;
+  }
+  #Metka .Green {
+    font-family: Rowdies;
+    font-size: 39px;
+    position: absolute;
+    left: 70px;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    padding: 30px;
+    border-radius: 40px;
+  }
+  #Metka .Red {
+    font-family: Rowdies;
+    font-size: 39px;
+    position: absolute;
+    left: 370px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(209, 15, 15);
+    padding: 30px;
+    border-radius: 40px;
+  }
+  #Metka .Blue {
+    white-space: nowrap;
+    font-family: Rowdies;
+    font-size: 39px;
+    position: absolute;
+    left: 680px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(42, 16, 188);
+    padding: 30px;
+    border-radius: 40px;
+  }
+  #Metka .wHITE {
+    white-space: nowrap;
+    font-family: Rowdies;
+    font-size: 39px;
+    position: absolute;
+    left: 1030px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(215, 209, 27);
+    padding: 30px;
+    border-radius: 40px;
+  }
+  .Motor {
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 300px;
+    padding-left: 370px;
+    height: 500px;
+  }
+  .MotorAUDI {
+    width: 705px !important;
+    height: 706px !important;
+  }
+  .Text3 {
+    font-size: 50px;
+  }
+  .Text4 {
+    font-size: 45px;
+  }
+  .Text4 span {
+    font-family: Rowdies;
+    color: red;
+    font-size: 58px;
+  }
+  .Years1 {
+    font-size: 25px;
+  }
+  .Years2 {
+    font-size: 25px;
+  }
+  .Big {
+    font-size: 120px;
+  }
+  .Discriptor {
+    white-space: nowrap;
+    font-size: 30px;
+    /* display: flex; */
+  }
+  .SERVICES {
+    white-space: nowrap;
+    padding-left: 20px !important;
+  }
+  .price {
+    padding-left: 20px !important;
+  }
+  .service {
+    padding-left: 20px !important;
+  }
+
+  .basement_Text {
+    font-size: 28px;
+    bottom: -90px;
+    right: 50px;
+  }
+  .basement_Text2 {
+    font-size: 16px;
+    bottom: -115px;
+    right: 45px;
+  }
+  .basement_Text3 {
+    font-size: 20px;
+    bottom: 30px;
+    right: 90px;
+  }
+  .basement_Text4 {
+    font-size: 20px;
+    bottom: 23px;
+    right: 70px;
+  }
+  .basement_Text5 {
+    bottom: 190px;
+    font-size: 20px;
+    right: 33px;
+  }
+  .basement_Text6 {
+    bottom: 310px;
+    font-size: 20px;
+  }
+  .basement_Text7 {
+    bottom: 310px;
+
+    font-size: 20px;
+  }
+  .basement_Text8 {
+    bottom: 330px;
+    font-size: 20px;
+  }
+  .Insta {
+    width: 50px !important;
+  }
+  .tg {
+    padding-left: 15px;
+    width: 50px !important;
+  }
+  .Audi2 {
+    display: table;
+    padding-left: 470px;
+  }
+  .Audi3 {
+    margin-bottom: 200px;
+  }
+  .Audi4 {
+    margin-bottom: 200px;
+  }
+  .Audi5 {
+    margin-bottom: 100px;
+  }
+  .Cars1 {
+    width: 450px !important;
+  }
+  .Cars2 {
+    width: 450px !important;
+  }
+  .Cars3 {
+    width: 450px !important;
+  }
+}
